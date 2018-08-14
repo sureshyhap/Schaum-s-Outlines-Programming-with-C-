@@ -1,0 +1,1 @@
+A parameter passed by value is "read-only" since only the original variable's value is used. This value is "read" and used.

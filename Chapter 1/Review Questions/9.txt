@@ -1,0 +1,6 @@
+keywords: int
+Identifiers: main, n, cin, cout
+Operators: >>, =, *, <<, ()
+literals: 3, "n="
+punctuation: {, }, ;
+comments: -

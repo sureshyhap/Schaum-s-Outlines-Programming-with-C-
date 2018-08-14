@@ -1,0 +1,1 @@
+Access functions have read-only access to private data members. A utility function is a private member function that does some task but is not part of the available functionality of the class to the outside (like a programmer using the class).

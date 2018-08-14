@@ -1,0 +1,2 @@
+When making changes to the functionality of the functions, the main codebase does not have to be changed for every time the function is called (which would be the case if the code of the function was planted in main every time its functionality was needed).
+

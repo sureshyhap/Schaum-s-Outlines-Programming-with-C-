@@ -1,0 +1,1 @@
+Because the dot operator has higher precedence than the * operator.

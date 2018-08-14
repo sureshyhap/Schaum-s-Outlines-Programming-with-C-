@@ -1,0 +1,1 @@
+For the first s1 and s2 will point to the same string. With the second they will point to different strings in memory but the strings will be identical.

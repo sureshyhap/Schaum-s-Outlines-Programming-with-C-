@@ -1,0 +1,25 @@
+#include <iostream>
+
+float* make_new(float* a[], int n);
+
+int main(int argc, char* arg[]) {
+  int n = 5;
+  float* (*p) = new float*[n];
+  for (int i = 0; i < n; ++i) {
+    **(p + i) = i * 3;
+  }
+  float* arr = make_new(p, n);
+  for (int i = 0; i < n; ++i) {
+    std::cout << arr[i] << " ";
+  }
+  
+  return 0;
+}
+
+float* make_new(float* a[], int n) {
+  float new_arr[n] = {};
+  for (int i = 0; i < n; ++i) {
+    new_arr[i] = *(a[i]);
+  }
+  return new_arr;
+}

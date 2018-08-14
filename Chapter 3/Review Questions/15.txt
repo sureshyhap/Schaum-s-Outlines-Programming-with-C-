@@ -1,0 +1,1 @@
+Fall-through is when a switch-case is used and a break is missing in a case. The code executes the statements for the case matching the expression for all cases below it until a break is seen.

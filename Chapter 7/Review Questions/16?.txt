@@ -1,0 +1,12 @@
+a. mutable lvalue
+b. non-value
+c. immutable lvalue
+d. immutable lvalue
+e. mutable lvalue
+f. ???
+g. non lvalue (if not returning a reference)
+h. mutable lvalue
+i. mutable lvalue
+j. mutable lvalue
+k. mutable lvalue
+l. immutable lvalue

@@ -1,0 +1,42 @@
+#include <iostream>
+#include <cstring>
+
+int strncmp(char* s1, char* s2, int n);
+
+int main(int argc, char* argv[]) {
+  char s1[] = "Hello";
+  char s2[] = "Hey";
+  char s3[] = "there";
+  std::cout << strncmp(s1, s2, 2);
+
+  return 0;
+}
+
+int strncmp(char* s1, char* s2, int n) {
+  char s2_n[n + 1];
+  for (int i = 0; i < n; ++i) {
+    s2_n[i]  = s2[i];
+  }
+  s2_n[n] = '\0';
+ 
+  int len1 = strlen(s1), len2 = strlen(s2_n);
+  int min;
+
+  if (len2 < len1) {
+    min = len2;
+  }
+  else {
+    min = len1;
+  }
+  for (int i = 0; i < min; ++i) {
+    if (s1[i] != s2_n[i]) {
+      if (s1[i] < s2_n[i]) {
+        return -1;
+      }
+      else if (s1[i] > s2_n[i]) {
+        return 1;
+      }
+    }
+  }
+  return 0;
+}

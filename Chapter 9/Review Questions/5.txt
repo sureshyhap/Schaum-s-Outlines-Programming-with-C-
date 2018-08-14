@@ -1,0 +1,1 @@
+It allows for many many different operations on strings under the string header that werent possible with C-strings. For working with external files, there are fstream objects (ifstream adn ofstream). For internal files, there are sstream objects called ostringstream and istringstream.

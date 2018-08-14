@@ -1,0 +1,1 @@
+They have the same integral values but the directions are type Direction and int for b.

@@ -1,0 +1,6 @@
+#include <iostream>
+
+int main() {
+    char to_find = 100;
+    std::cout << to_find;
+}

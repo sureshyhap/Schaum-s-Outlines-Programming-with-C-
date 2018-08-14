@@ -1,0 +1,1 @@
+main is missing its parentheses, n has not been given a type, and cout and endl are missing std:: or a using namespace std; statement, the preprocessor directive should not have a semicolon at the end, and there is no ending quote for the string on line 5.

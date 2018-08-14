@@ -1,0 +1,1 @@
+A constructor is called when an object is created (in a class variable declaration for instance) while the destructor is calleed when it is destroyed (goes out of scope for instance)

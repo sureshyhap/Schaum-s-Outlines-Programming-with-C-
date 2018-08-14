@@ -1,0 +1,1 @@
+Fall-through is when a switch-case is used and a break is missing in a case.

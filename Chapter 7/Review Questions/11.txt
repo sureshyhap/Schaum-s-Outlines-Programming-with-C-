@@ -1,0 +1,1 @@
+Because &&n would be the address of the address of n but that doesn't make sense.

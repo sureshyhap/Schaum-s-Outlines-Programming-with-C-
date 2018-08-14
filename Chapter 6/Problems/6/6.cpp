@@ -1,0 +1,20 @@
+#include <iostream>
+
+int index(int x, int a[], int n);
+
+int main(int argc, char* argv[]) {
+  int a[] = {22, 44, 66, 88, 44, 66, 55};
+  std::cout << "index(44, a, 7) = " << index(44, a, 7) << std::endl;
+  std::cout << "index(50, a, 7) = " << index(50, a, 7) << std::endl;
+  
+  return 0;
+}
+
+int index(int x, int a[], int n) {
+  for (int i = n - 1; i >= 0; --i) {
+    if (a[i] == x) {
+      return i;
+    }
+  }
+  return n;
+}

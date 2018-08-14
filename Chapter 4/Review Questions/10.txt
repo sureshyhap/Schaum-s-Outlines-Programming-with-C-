@@ -1,0 +1,1 @@
+Because floats cannot be infinitely precise because they only have a certain number of bits to use. So they cannot exactly be equal to some real number.

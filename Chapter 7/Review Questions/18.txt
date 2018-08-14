@@ -1,0 +1,1 @@
+The * operator should be used and also the value will be garbage values since no value was specified with new.

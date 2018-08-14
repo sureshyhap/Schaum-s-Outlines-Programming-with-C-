@@ -1,0 +1,1 @@
+A run-time error is an error that occurs when the program is running. Two kinds of run-time errors are entering a value too big when prompted by for input and division by zero is another.

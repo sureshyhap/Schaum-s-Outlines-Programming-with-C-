@@ -1,0 +1,3 @@
+keywords: int
+Identifiers: main, n, cin, cout
+Operators: >>, =, *, <<

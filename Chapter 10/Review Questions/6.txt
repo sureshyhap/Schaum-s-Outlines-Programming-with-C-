@@ -1,0 +1,1 @@
+The copy constructor is called when an object is being copied for another's initialization. The assignment operator is used for assignments after the object has been created.

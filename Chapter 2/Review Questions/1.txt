@@ -1,0 +1,1 @@
+They are all integral types but they are different sizes. The bigger ones have higher maximum values.

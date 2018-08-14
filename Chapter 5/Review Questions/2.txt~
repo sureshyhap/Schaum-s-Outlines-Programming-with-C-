@@ -1,0 +1,1 @@
+A function declaration simply states the function's return type, name, and number and type of its parameters. This is useful for the compiler so that it understands when function calls are made.

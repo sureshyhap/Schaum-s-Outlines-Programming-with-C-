@@ -1,0 +1,1 @@
+The difference is that private members of a class cannot be accessed from outside the class while public members can. So if num is a private data member and x is an object of the class, saying x.num = 5 in main is not allowed.

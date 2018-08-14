@@ -1,0 +1,1 @@
+It tells the program a certain variables name and type so that when it is used later the program will recognize it.

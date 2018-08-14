@@ -1,0 +1,1 @@
+Passing by value copies the value of the arguments into the parameters of the function.

@@ -1,0 +1,1 @@
+A class member function (if it is non-static) can be called only by an object of the class. If it is static, it can only be called through the scope resolution operator and its class name. Application functions can be called by anyone in the program.

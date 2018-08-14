@@ -1,0 +1,1 @@
+Nothing. Both call the copy constructor.

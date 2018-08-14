@@ -1,0 +1,1 @@
+main is missing its parentheses, n has not been given a type, and cout and endl are missing std:: or a using namespace std; statement.

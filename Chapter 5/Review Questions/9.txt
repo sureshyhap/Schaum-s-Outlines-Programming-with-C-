@@ -1,0 +1,1 @@
+A parameter passed by value is "read-only" since only the original variable's value is used. This value is "read" and used. Pass by reference is "read-write" because not only can the value of the original variable is used but the same memory address can be manipulated ("writing").

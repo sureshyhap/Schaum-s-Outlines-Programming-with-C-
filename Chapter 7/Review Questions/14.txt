@@ -1,0 +1,1 @@
+The intent is to move through the array by incrementing a but a is a const pointer and thus cannot be incremented.

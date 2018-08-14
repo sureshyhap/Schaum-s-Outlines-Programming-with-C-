@@ -1,0 +1,1 @@
+The array name permanently points to the first position in the array.

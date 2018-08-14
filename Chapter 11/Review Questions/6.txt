@@ -1,0 +1,1 @@
+The difference is that the first line calls the copy constructor while the second calls the default constructor and then the assignment operator.

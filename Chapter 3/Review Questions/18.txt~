@@ -1,0 +1,5 @@
+a. if (count > 100) {
+      std::cout << "too many" << std::endl;
+    }
+b. (count > 100) ? 
+

@@ -1,0 +1,5 @@
+a. float a[8];
+b. float* a[8];
+c. float* p = new float[8];
+d. float* (*p); ???
+e. 

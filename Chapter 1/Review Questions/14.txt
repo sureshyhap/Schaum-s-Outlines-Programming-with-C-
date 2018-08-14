@@ -1,0 +1,1 @@
+This is when a number stored in a variable of a certain type exceeds the maximum value of its type.

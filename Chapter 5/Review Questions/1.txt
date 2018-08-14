@@ -1,0 +1,3 @@
+When making changes to the functionality of the functions, the main codebase does not have to be changed for every time the function is called (which would be the case if the code of the function was planted in main every time its functionality was needed).
+
+Also by thinking of a function as a black box that will give the desired output for certain input without needing to understand the implementation details, time/thought can be saved for doing higher level tasks. You can build upon the layers of abstraction.

@@ -1,0 +1,30 @@
+#include <iostream>
+
+int main() {
+  std::cout << "Enter two positive integers for / and %:";
+  int first, second;
+  std::cin >> first >> second;
+
+  int division, remainder;
+  if (second > first) {
+    division = 0;
+    remainder = first;
+  }
+  else if (second == first) {
+    division = 1;
+    remainder = 0;
+  }
+  else {
+    int i = 0, leftover = second;
+    for (; leftover >= second; ++i) {
+      leftover = first - second;
+    }
+    division = i;
+    remainder = leftover;
+  }
+
+  std::cout << first << " / " << second << " = " << division << ".\n";
+  std::cout << first << " % " << second << " = " << remainder << ".\n";
+  
+  return 0;
+}

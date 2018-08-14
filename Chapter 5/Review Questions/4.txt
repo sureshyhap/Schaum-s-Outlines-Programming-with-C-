@@ -1,0 +1,1 @@
+When it is used in the main program file for instance but is declared and/or defined in another file called a header file.

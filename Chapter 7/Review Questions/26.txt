@@ -1,0 +1,1 @@
+The first is a function returning a pointer. The second is a pointer to a function that returns a double and has no arguments.

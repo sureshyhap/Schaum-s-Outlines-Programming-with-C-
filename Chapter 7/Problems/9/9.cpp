@@ -1,0 +1,26 @@
+#include <iostream>
+
+unsigned len(const char* s);
+void cpy(char* s1, const char* s2);
+
+int main(int argc, char* argv[]) {
+  char str1[] = "Abraham Lincoln";
+  const char* str2 = "Hello";
+  cpy(str1, str2);
+  std::cout << str1;
+}
+
+unsigned len(const char* s) {
+  int i = 0;
+  for (; s[i] != '\0'; ++i) {
+    ;
+  }
+  return i * sizeof(char);
+}
+
+void cpy(char* s1, const char* s2) {
+  unsigned int num_bytes = len(s2);
+  for (int i = 0; i < num_bytes / sizeof(char); ++i) {
+    s1[i] = s2[i];
+  }
+}

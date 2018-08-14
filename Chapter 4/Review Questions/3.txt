@@ -1,0 +1,1 @@
+It can exit a loop at any point inside of the loop instead of of only possibly exiting at the end.

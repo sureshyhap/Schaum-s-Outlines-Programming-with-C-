@@ -1,0 +1,1 @@
+You can't check values like this but instead have to do it two at a time because for instance if x is less than y then x < y will evaluate to 1 then the check will be 1 < z which is not what was intended.

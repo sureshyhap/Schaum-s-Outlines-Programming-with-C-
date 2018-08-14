@@ -1,0 +1,1 @@
+The default constructor takes no parameters. Also it willbe automatically made if it is not created by the programmer.

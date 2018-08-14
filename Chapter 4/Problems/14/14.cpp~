@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+  int first, second;
+  std::cout << "Enter two positive integers: ";
+  std::cin >> first >> second;
+
+  int m = first, n = second;
+  for (int r = 1; r != 0; ) {
+    r = m % n;
+    m = n;
+    n = r;
+  }
+
+  std::cout << "The GCF of " << first << " and " << second << " is " << m << ".";
+  
+  return 0;
+}

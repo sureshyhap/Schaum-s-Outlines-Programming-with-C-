@@ -1,0 +1,1 @@
+p is a pointer to pointer to pointer to pointer to double. It could be used to specify a 4-D array.

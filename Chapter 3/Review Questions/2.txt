@@ -1,0 +1,2 @@
+a. << should be >>
+b. x < y should be (x < y) and there should be a semicolon after min = x

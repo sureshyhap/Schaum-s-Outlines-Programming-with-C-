@@ -1,0 +1,9 @@
+a. A dangling pointer is an uninitialized pointer.
+b. It will be whatever garbage value of the address that was in the pointer at the time.
+c.
+int x = 5;
+int* p = &x;
+
+OR
+
+int *p = new int;

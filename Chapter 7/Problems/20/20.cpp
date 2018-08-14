@@ -1,0 +1,35 @@
+#include <iostream>
+#include <cmath>
+
+double riemann_sum(double (*pf)(double x), double a, double b);
+double func(double x);
+
+const double PI = 3.14159265359, E = 2.71828182846;
+
+
+int main(int argc, char* argv[]) {
+  std::cout << riemann_sum(&sqrt, 1, 4) << std::endl;
+  std::cout << riemann_sum(&cos, 0, PI / 2) << std::endl;
+  std::cout << riemann_sum(&exp, 0, 1) << std::endl;
+  std::cout << riemann_sum(&log, 1, E) << std::endl;
+
+  return 0;
+}
+
+double riemann_sum(double (*pf)(double x), double a, double b) {
+  std::cout << "Enter number of rectangles n: ";
+  int n;
+  std::cin >> n;
+
+  double h  = (b - a) / n;
+
+  double sum = 0;
+  for (int j = 1; j <= n; ++j) {
+    sum += (*pf)(a + j * h) * h;
+  }
+  return sum;
+}
+
+double func(double x) {
+  return x * x;
+}

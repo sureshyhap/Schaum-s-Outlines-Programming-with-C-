@@ -1,0 +1,38 @@
+#include <iostream>
+
+void read(int a[], int& n);
+void print(int a[], int n);
+const int MAXSIZE = 100;
+
+int main(int argc, char* argv[]) {
+  int a[MAXSIZE] = {}, size;
+  read(a, size);
+  std::cout << "The array has " << size << " elements: ";
+  print(a, size);
+  
+  return 0;
+}
+
+void read(int a[], int& n) {
+  std::cout << "Enter integers. Terminate with 0:\n";
+  n = 0;
+  do {
+    std::cout << "a[" << n << "]; ";
+    std::cin >> a[n];
+  } while (a[n++] != 0 && n < MAXSIZE);
+  --n;
+}
+
+void print(int a[], int n) {
+  int sum = 0;
+  float ave = 0;
+  for (int i = 0; i < n; ++i) {
+    sum += a[i];
+    std::cout << a[i] << " ";
+  }
+  ave = float(sum) / n;
+  std::cout << std::endl;
+  std::cout << "Sum = " << sum << "\n";
+  std::cout << "Average = " << ave;
+
+}

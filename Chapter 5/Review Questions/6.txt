@@ -1,0 +1,1 @@
+It doesn't have to be recompiled when the function that called it is recompiled.

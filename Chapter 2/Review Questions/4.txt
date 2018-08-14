@@ -1,0 +1,1 @@
+The pre-increment operator updates the value before using its value in the surrounding expression. The post-increment operator updates after using the value in the surroundingg expression.

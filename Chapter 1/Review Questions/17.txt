@@ -1,0 +1,1 @@
+A compile time error is an error in the code that prevents the code from being compiled. Two examples are a missing semicolon or forgetting to put parentheses after a function.

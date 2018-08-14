@@ -1,0 +1,1 @@
+Because regular functions can be called without an object and without an object this would refer to nothing.

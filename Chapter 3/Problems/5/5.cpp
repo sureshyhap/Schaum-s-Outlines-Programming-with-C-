@@ -1,0 +1,30 @@
+#include <iostream>
+
+int main() {
+  int n = 44;
+  std::cout << "n = " << n << '\n';
+  {
+    std::cout << "Enter and integer: ";
+    std::cin >> n;
+    std::cout << "n = " << n << '\n';
+  }
+  {
+    std::cout << "n = " << n << '\n';
+  }
+  {
+    int n;
+    std::cout << "n = " << n << '\n';
+  }
+  std::cout << "n = " << n << std::endl;
+  
+  return 0;
+}
+
+/* Predicted output:
+n = 44
+Enter an integer: 77
+77
+77
+Garbage
+77
+*/

@@ -1,0 +1,1 @@
+Because both operands must be explicit and the left operand is the stream not *this (the object).

@@ -1,0 +1,2 @@
+Static binding: int a[20]; allocates memory at compile time.
+Dynamic binding: int* a = new int[20]; allocates memory at runtime.

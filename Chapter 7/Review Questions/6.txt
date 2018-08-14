@@ -1,0 +1,2 @@
+a. False x and y can have the same value without having the same memory address.
+b. True because if the x and y pointers are equal they must point to the same thing and thus the values of what they point to must be equal.

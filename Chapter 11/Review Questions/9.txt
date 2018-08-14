@@ -1,0 +1,1 @@
+Because both operands should be explicit and the operations are commutative so the left and the right operand should treated the same (not with one as *this and the other as an explicit argument). Also it allows for the first operand to be a const.

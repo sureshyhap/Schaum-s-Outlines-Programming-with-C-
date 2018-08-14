@@ -1,0 +1,1 @@
+They both make the parameters synonyms for the arguments but a constant reference cannot be changed in the function being called. Pass by reference is useful for changing an argument by changing a parameter while pass by constant reference is useful for passing large items (since it doesn't make a copy occupying more memory) that will not be changed in the function call.

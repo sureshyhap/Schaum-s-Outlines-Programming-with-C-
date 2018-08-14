@@ -1,0 +1,3 @@
+A function declaration simply states the function's return type, name, and number and type of its parameters. This is useful for the compiler so that it understands when function calls are made. It is only the "head" of the function.
+
+The definition is the actual implementation of the function. It includes the "head" and the "body" of the function.

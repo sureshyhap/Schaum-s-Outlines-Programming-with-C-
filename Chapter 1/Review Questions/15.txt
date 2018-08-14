@@ -1,0 +1,1 @@
+Integer overflow results in wrapping around through negative values starting at the max negative value of an int. Floating-point overflow results in the value considered as a constant inf for infinity.

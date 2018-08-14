@@ -1,0 +1,1 @@
+A reference must be initialized to a variable. It can't be a synonym of a literal number.

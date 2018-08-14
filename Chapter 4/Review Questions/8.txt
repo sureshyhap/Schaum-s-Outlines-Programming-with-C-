@@ -1,0 +1,1 @@
+A loop that never "formally" ends. It can be useful if it is not known beforehand when the loop will end. Only some condition inside the loop can end it by using a break statement for instance.

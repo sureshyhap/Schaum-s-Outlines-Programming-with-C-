@@ -1,0 +1,1 @@
+Forgot to declare what namespace cout is in and there is a missing semicolon on the 4th line.

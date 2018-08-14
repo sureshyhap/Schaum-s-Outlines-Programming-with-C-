@@ -1,0 +1,1 @@
+A buffer area tnat either that can be either read from into variables for instance or written to from variables for instance.

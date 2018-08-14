@@ -1,0 +1,1 @@
+n1 has the same value as n but has a different memory address. n2 is a synonym for n (it has the same memory address as n).

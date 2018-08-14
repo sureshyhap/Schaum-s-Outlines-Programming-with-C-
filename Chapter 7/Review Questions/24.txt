@@ -1,0 +1,1 @@
+By incrementing a pointer equal to the const pointer that is the array name.

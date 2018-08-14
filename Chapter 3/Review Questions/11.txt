@@ -1,0 +1,4 @@
+a. (score >= 80) && (score < 90)
+b. answer == 'N' || answer == 'n'
+c. ((n % 2) == 0) && (n != 8)
+d. ch >= 'A' && ch <= 'Z'

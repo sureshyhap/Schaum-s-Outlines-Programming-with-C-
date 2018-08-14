@@ -1,0 +1,6 @@
+a. 10
+b. 3
+c. 4
+d. 4 // Not 5 because the expression n++ evaluates to n
+e. 1
+f. 19

@@ -1,0 +1,1 @@
+Class::member. It is needed so that it is clear what class the function belongs to. Without it, the definition would be of a general application function not a member function.

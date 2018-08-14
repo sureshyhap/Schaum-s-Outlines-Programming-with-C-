@@ -1,0 +1,8 @@
+#include <iostream>
+
+int main() {
+  int a = inf, b = -inf, c = nan;
+  std::cout << a << " " << b << " " << c << std::endl;
+  
+  return 0;
+}

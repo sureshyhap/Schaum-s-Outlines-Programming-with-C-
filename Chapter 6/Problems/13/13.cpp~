@@ -1,0 +1,13 @@
+#include <iostream>
+
+bool removeFirst(float a[], int& n, float x);
+
+int main(int argc, char* argv[]) {
+  
+  
+  return 0;
+}
+
+bool removeFirst(float a[], int& n, float x) {
+  
+}

@@ -1,0 +1,1 @@
+A C-string relies on the NUL terminating character '\0' to know when a string ends. A C++ string stores the length of the string as an attribute of ths string so no '\0' is needed. Also many different operations are available to C++ strings that are not available to C-strings.

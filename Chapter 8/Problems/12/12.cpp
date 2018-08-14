@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cstring>
+
+// May overwrite data after string
+void strncpy(char* s1, char* s2, int n);
+
+int main(int argc, char* argv[]) {
+  char s1[] = "Hello World";
+  char s2[] = "thy";
+  strncpy(s1, s2, 2);
+  std::cout << s1;
+  
+  return 0;
+}
+
+void strncpy(char* s1, char* s2, int n) {
+  int len1 = strlen(s1), len2 = strlen(s2);
+  if (n > len2) {
+    strcpy(s1, s2);
+    return;
+  }
+  if (n <= len1) {
+    for (int i = 0; i < n; ++i) {
+      s1[i] = s2[i];
+    }
+  }
+}

@@ -1,0 +1,11 @@
+#include <iostream>
+
+class Ratio {
+public:
+private:
+  int num, den;
+};
+
+int main(int argc, char* argv[]) {
+  return 0;
+}

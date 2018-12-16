@@ -1,0 +1,1 @@
+It is a class without any pure virtual functions. It can be instantiated.

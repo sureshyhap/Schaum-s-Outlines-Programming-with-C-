@@ -1,0 +1,1 @@
+Static binding is when a line of code has only one meaning and is action is determined at compile time. Dynamic binding is when two lines of code that are the same can do different things; they're action is determined at runtime.

@@ -1,0 +1,1 @@
+It is when the same line of code can do two different things. Specifically a pointer of type pointer to base class that calls a member function with a common signature in the base class and a derived class can call either function with the same line of code (which one is called depends on what the pointer is pointing to).

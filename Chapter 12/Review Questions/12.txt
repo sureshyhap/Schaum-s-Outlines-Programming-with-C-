@@ -1,0 +1,1 @@
+It allows more specific versions of member functions that will extend from a base class's virtual member functions to be specified in derived class's definitions.

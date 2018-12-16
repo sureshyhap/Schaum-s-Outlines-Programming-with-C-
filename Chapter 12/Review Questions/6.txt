@@ -1,0 +1,1 @@
+It occurs when memory that has been "new"ed is not eventually "delete"d.

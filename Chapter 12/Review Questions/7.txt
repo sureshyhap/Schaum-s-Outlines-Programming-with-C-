@@ -1,0 +1,1 @@
+They make sure that a derived class's destructor is called in addition to the parent's destructor when an object of derived class's type is destroyed through a pointer that has type pointer to base class.

@@ -1,0 +1,1 @@
+It allows a member function in a derived class with the same signature as it to be called instead of itself through a pointer of type pointer of base class that is presently pointing to an object of the derived class's type.

@@ -1,0 +1,1 @@
+It is a class with at least one pure virtual function. It cannot be instantiated. It is meant to be inherited.

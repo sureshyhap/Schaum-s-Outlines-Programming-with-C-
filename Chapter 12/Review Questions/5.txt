@@ -1,0 +1,1 @@
+It is a member function that not only might be overriden in a derived class (given by virtual) but will certainly be overidden (the pure part).

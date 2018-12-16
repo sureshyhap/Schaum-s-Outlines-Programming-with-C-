@@ -1,0 +1,1 @@
+The code is not changing this->a but is attempting to change x.a which is not possible because a derived class cannot access OTHER objects' protected members (objects of the base class type). It can only access its own version of those members. Also even if you could, this would only change a a copy of the passed in object's data member "a".

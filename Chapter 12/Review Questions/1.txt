@@ -1,0 +1,1 @@
+Composition is when a class "has a" different class object inside of it. Inheritance is when a class "is a" more specific version of another class.

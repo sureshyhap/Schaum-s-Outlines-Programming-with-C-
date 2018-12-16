@@ -1,0 +1,1 @@
+Protected members are accessible to a class's derived classes. Private members are not; they are only accessible to the class itself or friends of the class.

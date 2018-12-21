@@ -1,0 +1,1 @@
+The generalized function is the function template. The specified function call is the template function.

@@ -1,0 +1,1 @@
+It points to a specific element just like an array subscript refers to an element. It can also return the value of the element and/or change the value of the element just like subscripted array elements.

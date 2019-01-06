@@ -1,0 +1,1 @@
+Arrays are more efficient but vectors are more robust (they are safer to use).
